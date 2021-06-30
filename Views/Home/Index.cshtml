@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron">
+                <h2>
+                    Hello, World!
+                </h2>
+                <p>
+                    This is a site made to demonstrate the core principles of MVX using ASP.NET 5 with Razor pages. Contains
+                    two pages, one for keeping track of inventory and one for budgeting. I titled it RVLife designating it could 
+                    be useful for keeping track of purchased RV items and the monthly budget. Not a complex site but demonstrates 
+                    the core foundation to making web applications.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2>
+                Inventory
+            </h2>
+            <p>
+                We like to keep track of all our items. This helps us keep up with our spending and making sure we have what we need.
+                It also keeps track of where we got something at and what we paid. We can store notes like specific model details or
+                warranty information we want to keep handy.
+            </p>
+            <p>
+                <a class="btn" asp-controller="Item">View inventory »</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>
+                Budgeting
+            </h2>
+            <p>
+                If you are not budgeting, then life is costing you too much. With so many things we want to do, being careful on what our
+                monthly expenses are is not an option. This is our simple way of keeping track of our routine monthly expenses so we 
+                understand where we are at.
+            </p>
+            <p>
+                <a class="btn" asp-controller="Expense">View budget »</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>
+                Sample third column
+            </h2>
+            <p>
+                We like to keep track of all our items. This helps us keep up with our spending and making sure we have what we need.
+                It also keeps track of where we got something at and what we paid. We can store notes like specific model details or
+                warranty information we want to keep handy.
+            </p>
+            <p>
+                <a class="btn" asp-controller="Inventory">View Inventory »</a>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="card-292812">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-292812" href="#card-element-790961">Social Media</a>
+                    </div>
+                    <div id="card-element-790961" class="collapse">
+                        <div class="card-body">
+                            Instagram : <a href="https://www.instagram.com/" target="_blank">&#64;nothing_here_yet</a>
+                        </div>
+                        <div class="card-body">
+                            YouTube : <a href="https://www.youtube.com/" target="_blank">&#64;nothing_here_yet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-292812" href="#card-element-692567">Contact Info</a>
+                    </div>
+                    <div id="card-element-692567" class="collapse">
+                        <div class="card-body">
+                            Email : <a href="mailto:ndavisjr@gmail.com" target="_blank">nothing_here_yet&#64;gmail.com</a>
+                        </div>
+                        <div class="card-body">
+                            Mail:<br />
+                            123 Steward Rd #123 <br />
+                            Galveston, Texas 77551
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
